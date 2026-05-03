@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-03T15:30:00+08:00",
-  "total_count": 10,
+  "updated_at": "2026-05-03T16:00:00+08:00",
+  "total_count": 16,
   "items": [
     {
       "id": "kb_20260503_001",
@@ -71,6 +71,48 @@
       "category": "agent",
       "importance": "high",
       "file": "2026-05-03-github-hermes-agent.json"
+    },
+    {
+      "id": "kb_20260503_011",
+      "title": "Mem0：AI Agent 通用记忆层",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-mem0.json"
+    },
+    {
+      "id": "kb_20260503_012",
+      "title": "XAgent：超越 AutoGPT 的开源自主 Agent",
+      "category": "agent",
+      "importance": "medium",
+      "file": "2026-05-03-github-xagent.json"
+    },
+    {
+      "id": "kb_20260503_013",
+      "title": "MiniMax-M2：开源评分第一的 MoE 编程模型",
+      "category": "llm",
+      "importance": "high",
+      "file": "2026-05-03-github-minimax-m2.json"
+    },
+    {
+      "id": "kb_20260503_014",
+      "title": "GLM-5：智谱 Agent 工程优化旗舰模型",
+      "category": "llm",
+      "importance": "high",
+      "file": "2026-05-03-github-glm5.json"
+    },
+    {
+      "id": "kb_20260503_015",
+      "title": "Fara：微软计算机使用 Agent 小模型",
+      "category": "agent",
+      "importance": "medium",
+      "file": "2026-05-03-github-fara.json"
+    },
+    {
+      "id": "kb_20260503_016",
+      "title": "Magma：微软多模态 Agent 基础模型",
+      "category": "research",
+      "importance": "medium",
+      "file": "2026-05-03-github-magma.json"
     }
   ]
 }

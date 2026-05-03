@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "github-trending-output.json",
+  "title": "GitHub Trending Output",
+  "description": "Schema for GitHub Trending repositories output",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "url", "stars", "topics", "description"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Repository name in format 'owner/repo'",
+        "examples": ["modelscope/agentscope"]
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Full GitHub URL",
+        "examples": ["https://github.com/modelscope/agentscope"]
+      },
+      "stars": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Number of stars"
+      },
+      "topics": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Repository topics/tags",
+        "examples": [["ai", "agent", "llm"]]
+      },
+      "description": {
+        "type": "string",
+        "description": "Repository description"
+      }
+    },
+    "additionalProperties": false
+  }
+}
