@@ -1,0 +1,28 @@
+{
+  "id": "kb_20260503_007",
+  "title": "AI 工具系统提示词合集",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "source_type": "github_trending",
+  "summary": "揭秘主流 AI 工具的系统提示词和模型配置，包含 Claude Code、Cursor、Devin、Windsurf 等产品的完整 prompt。学习和研究价值极高。",
+  "key_points": [
+    "覆盖 Claude Code、Cursor、Devin、Windsurf 等主流工具",
+    "完整系统提示词和模型配置",
+    "持续更新，紧跟新版本",
+    "社区贡献，多人维护",
+    "反向工程学习 Prompt Engineering"
+  ],
+  "tags": ["prompt-engineering", "system-prompts", "learning", "ai-tools", "open-source"],
+  "category": "research",
+  "importance": "high",
+  "status": "pending",
+  "created_at": "2026-05-03T15:30:00+08:00",
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 135494,
+    "language": null,
+    "forks": 34013,
+    "score": 7,
+    "score_rationale": "独特的学习资源，揭示 AI 产品设计思路。创新性 6（资源收集），实用性 8（参考价值高），影响力 9（135K stars），时效性 8（持续更新）。"
+  }
+}

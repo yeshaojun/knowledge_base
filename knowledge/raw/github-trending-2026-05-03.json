@@ -1,0 +1,97 @@
+{
+  "fetch_id": "gh_20260503_001",
+  "source": "github_trending_weekly",
+  "fetched_at": "2026-05-03T14:30:00+08:00",
+  "items": [
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Open-source personal AI assistant that runs on your own hardware and connects to WhatsApp, Telegram, Slack, Discord, Signal, iMessage, and Microsoft Teams. The fastest-growing GitHub repository in history.",
+      "stars": 240500,
+      "language": "TypeScript",
+      "forks": 15000,
+      "today": 850
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. A pioneering autonomous AI agent framework.",
+      "stars": 183546,
+      "language": "Python",
+      "forks": 46221,
+      "today": 320
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Open-source workflow automation platform with 400+ integrations, AI-native and fully customizable with LangChain support built in.",
+      "stars": 174000,
+      "language": "TypeScript",
+      "forks": 28000,
+      "today": 410
+    },
+    {
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "The simplest way to run LLMs locally. One command downloads and runs any supported model including DeepSeek, GLM-5, Qwen, Gemma, Llama.",
+      "stars": 162000,
+      "language": "Go",
+      "forks": 8500,
+      "today": 520
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful low-code tool for building and deploying AI-powered agents and workflows with drag-and-drop interface.",
+      "stars": 147091,
+      "language": "Python",
+      "forks": 8801,
+      "today": 380
+    },
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development. All-in-one toolchain for building, deploying, and managing AI applications.",
+      "stars": 138273,
+      "language": "TypeScript",
+      "forks": 21678,
+      "today": 450
+    },
+    {
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "Full system prompts and AI models for Augment Code, Claude Code, Cursor, Devin AI, Windsurf and other AI tools.",
+      "stars": 135494,
+      "language": "None",
+      "forks": 34013,
+      "today": 680
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform. Foundational framework for building reliable AI agents in Python with chains, agents, memory, and retrieval.",
+      "stars": 133997,
+      "language": "Python",
+      "forks": 22142,
+      "today": 290
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of 100+ AI Agent & RAG apps you can actually run, using OpenAI, Anthropic, Gemini and open-source models.",
+      "stars": 106311,
+      "language": "Python",
+      "forks": 15583,
+      "today": 420
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you. Production-grade AI agent framework with terminal-first interface, multi-platform messaging gateway, and persistent memory.",
+      "stars": 99955,
+      "language": "Python",
+      "forks": 14174,
+      "today": 5300
+    }
+  ]
+}

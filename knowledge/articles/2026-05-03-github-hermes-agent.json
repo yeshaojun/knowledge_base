@@ -1,0 +1,28 @@
+{
+  "id": "kb_20260503_010",
+  "title": "Hermes Agent：架构优秀的生产级 Agent 框架",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source_type": "github_trending",
+  "summary": "生产级 AI Agent 框架，本周暴涨 53K stars（+48%）。终端优先设计，支持多平台消息网关、持久化记忆、技能中心，架构设计被誉为 2026 年最优秀的开源 Agent 框架。",
+  "key_points": [
+    "终端优先的 Agent 架构设计",
+    "多平台消息网关（Telegram、Discord、Slack 等）",
+    "持久化记忆和技能中心",
+    "沙箱终端执行，安全可控",
+    "调度系统和长期运行支持"
+  ],
+  "tags": ["agent", "framework", "terminal", "multi-platform", "python", "nous-research"],
+  "category": "agent",
+  "importance": "high",
+  "status": "pending",
+  "created_at": "2026-05-03T15:30:00+08:00",
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 99955,
+    "language": "Python",
+    "forks": 14174,
+    "score": 8,
+    "score_rationale": "架构设计优秀，增长迅猛的新星框架。创新性 8（架构设计领先），实用性 8（生产可用），影响力 8（100K stars + 48% 周增长），时效性 10（本周最热）。"
+  }
+}

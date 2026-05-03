@@ -1,0 +1,28 @@
+{
+  "id": "kb_20260503_005",
+  "title": "Langflow：低代码 AI 工作流设计平台",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "source_type": "github_trending",
+  "summary": "基于 LangChain 的低代码 AI 平台，拖拽式构建 Agent 和 RAG 工作流。可视化设计器支持多模型、向量库、工具链，一键导出为 API。",
+  "key_points": [
+    "拖拽式可视化工作流设计",
+    "原生支持 LangChain 生态",
+    "内置 RAG 流程和向量数据库集成",
+    "一键导出为 API 服务",
+    "支持多模型切换（OpenAI、Anthropic、本地模型）"
+  ],
+  "tags": ["low-code", "langchain", "rag", "visual-builder", "python", "enterprise"],
+  "category": "tool",
+  "importance": "high",
+  "status": "pending",
+  "created_at": "2026-05-03T15:30:00+08:00",
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 147091,
+    "language": "Python",
+    "forks": 8801,
+    "score": 8,
+    "score_rationale": "降低 Agent 开发门槛，企业级友好。创新性 7（可视化设计成熟），实用性 9（快速原型），影响力 9（147K stars），时效性 8（活跃开发）。"
+  }
+}

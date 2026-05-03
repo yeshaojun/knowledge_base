@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "total_count": 10,
+  "items": [
+    {
+      "id": "kb_20260503_001",
+      "title": "OpenClaw：增长最快的开源个人 AI 助手",
+      "category": "agent",
+      "importance": "high",
+      "file": "2026-05-03-github-openclaw.json"
+    },
+    {
+      "id": "kb_20260503_002",
+      "title": "AutoGPT：自主 AI Agent 框架先驱",
+      "category": "agent",
+      "importance": "high",
+      "file": "2026-05-03-github-autogpt.json"
+    },
+    {
+      "id": "kb_20260503_003",
+      "title": "n8n：AI 原生工作流自动化平台",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-n8n.json"
+    },
+    {
+      "id": "kb_20260503_004",
+      "title": "Ollama：最简单的本地 LLM 运行方案",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-ollama.json"
+    },
+    {
+      "id": "kb_20260503_005",
+      "title": "Langflow：低代码 AI 工作流设计平台",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-langflow.json"
+    },
+    {
+      "id": "kb_20260503_006",
+      "title": "Dify：生产级 AI 应用开发平台",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-dify.json"
+    },
+    {
+      "id": "kb_20260503_007",
+      "title": "AI 工具系统提示词合集",
+      "category": "research",
+      "importance": "high",
+      "file": "2026-05-03-github-system-prompts.json"
+    },
+    {
+      "id": "kb_20260503_008",
+      "title": "LangChain：AI Agent 开发事实标准框架",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-langchain.json"
+    },
+    {
+      "id": "kb_20260503_009",
+      "title": "Awesome LLM Apps：100+ 可运行 LLM 应用合集",
+      "category": "tool",
+      "importance": "high",
+      "file": "2026-05-03-github-awesome-llm-apps.json"
+    },
+    {
+      "id": "kb_20260503_010",
+      "title": "Hermes Agent：架构优秀的生产级 Agent 框架",
+      "category": "agent",
+      "importance": "high",
+      "file": "2026-05-03-github-hermes-agent.json"
+    }
+  ]
+}

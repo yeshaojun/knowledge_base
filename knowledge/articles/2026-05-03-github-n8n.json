@@ -1,0 +1,28 @@
+{
+  "id": "kb_20260503_003",
+  "title": "n8n：AI 原生工作流自动化平台",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "source_type": "github_trending",
+  "summary": "开源工作流自动化平台，支持 400+ 集成，原生支持 AI 能力和 LangChain。可视化拖拽设计，自托管部署，适合企业级自动化场景。",
+  "key_points": [
+    "400+ 预置集成，覆盖主流 SaaS 服务",
+    "原生 AI 支持，集成 LangChain 和向量数据库",
+    "可视化拖拽界面，低代码开发",
+    "自托管部署，数据完全掌控",
+    "Fair-code 许可证，商业化友好"
+  ],
+  "tags": ["workflow", "automation", "low-code", "langchain", "enterprise", "typescript"],
+  "category": "tool",
+  "importance": "high",
+  "status": "pending",
+  "created_at": "2026-05-03T15:30:00+08:00",
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 174000,
+    "language": "TypeScript",
+    "forks": 28000,
+    "score": 8,
+    "score_rationale": "企业级自动化利器，AI 原生集成是亮点。创新性 7（集成能力强），实用性 9（即开即用），影响力 9（174K stars），时效性 8（持续活跃）。"
+  }
+}

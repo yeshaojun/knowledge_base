@@ -1,0 +1,28 @@
+{
+  "id": "kb_20260503_006",
+  "title": "Dify：生产级 AI 应用开发平台",
+  "source_url": "https://github.com/langgenius/dify",
+  "source_type": "github_trending",
+  "summary": "生产级 AI 应用开发平台，一站式解决从原型到部署的全流程。内置 RAG 引擎、Agent 编排、模型管理、观测监控，适合企业级 AI 产品落地。",
+  "key_points": [
+    "一站式 AI 应用开发平台",
+    "企业级 RAG 引擎，支持多数据源",
+    "可视化 Agent 编排和工作流设计",
+    "内置模型管理和成本监控",
+    "生产级部署和运维支持"
+  ],
+  "tags": ["platform", "rag", "agent", "enterprise", "typescript", "production-ready"],
+  "category": "tool",
+  "importance": "high",
+  "status": "pending",
+  "created_at": "2026-05-03T15:30:00+08:00",
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 138273,
+    "language": "TypeScript",
+    "forks": 21678,
+    "score": 8,
+    "score_rationale": "企业级 AI 应用首选平台。创新性 7（整合能力强），实用性 10（生产就绪），影响力 9（138K stars），时效性 8（快速迭代）。"
+  }
+}

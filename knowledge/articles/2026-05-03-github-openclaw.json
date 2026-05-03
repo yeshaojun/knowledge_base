@@ -1,0 +1,28 @@
+{
+  "id": "kb_20260503_001",
+  "title": "OpenClaw：增长最快的开源个人 AI 助手",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "source_type": "github_trending",
+  "summary": "开源个人 AI 助手，支持本地部署，可连接 WhatsApp、Telegram、Slack 等 50+ 平台。GitHub 历史上增长最快的仓库，60 天内从 9K 涨至 240K stars，由 PSPDFKit 创始人 Peter Steinberger 开发。",
+  "key_points": [
+    "支持 50+ 通讯平台集成（WhatsApp、Telegram、Slack、Discord 等）",
+    "完全本地化运行，无需云服务，保护隐私",
+    "支持多模型接入（OpenAI、Anthropic、本地模型）",
+    "提供插件系统和技能扩展机制",
+    "活跃的社区生态，快速迭代"
+  ],
+  "tags": ["agent", "personal-assistant", "multi-platform", "local-ai", "open-source", "typescript"],
+  "category": "agent",
+  "importance": "high",
+  "status": "pending",
+  "created_at": "2026-05-03T15:30:00+08:00",
+  "updated_at": "2026-05-03T15:30:00+08:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 240500,
+    "language": "TypeScript",
+    "forks": 15000,
+    "score": 9,
+    "score_rationale": "改变个人 AI 助手格局的开源项目。创新性 9（多平台网关架构），实用性 10（即开即用），影响力 10（240K stars 历史级增长），时效性 10（本周最热）。"
+  }
+}
