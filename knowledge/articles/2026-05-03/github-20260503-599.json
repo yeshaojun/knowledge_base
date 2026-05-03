@@ -1,0 +1,25 @@
+{
+  "id": "github-20260503-599",
+  "title": "Significant-Gravitas/AutoGPT",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "source_type": "github_search",
+  "summary": "AutoGPT是一个开源项目，旨在通过提供易用的AI工具，让每个人都能构建和部署自主AI代理，降低AI使用门槛，实现人工智能的普惠化。",
+  "tags": [
+    "AutoGPT",
+    "AI代理",
+    "自主AI",
+    "开源工具"
+  ],
+  "category": "agent",
+  "importance": "high",
+  "status": "draft",
+  "created_at": "2026-05-03T10:47:20.422912+00:00",
+  "updated_at": "2026-05-03T10:47:20.422915+00:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 183948,
+    "language": "Python",
+    "forks": 46242,
+    "score": 10
+  }
+}

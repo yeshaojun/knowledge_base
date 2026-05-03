@@ -1,0 +1,25 @@
+{
+  "id": "github-20260503-08d",
+  "title": "anthropics/skills",
+  "source_url": "https://github.com/anthropics/skills",
+  "source_type": "github_search",
+  "summary": "Anthropic开源Agent Skills仓库，提供可复用的AI代理技能模块，助力开发者高效构建智能代理系统。",
+  "tags": [
+    "agent",
+    "skills",
+    "anthropic",
+    "open-source"
+  ],
+  "category": "agent",
+  "importance": "high",
+  "status": "draft",
+  "created_at": "2026-05-03T10:47:42.221357+00:00",
+  "updated_at": "2026-05-03T10:47:42.221361+00:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 127464,
+    "language": "Python",
+    "forks": 14984,
+    "score": 10
+  }
+}

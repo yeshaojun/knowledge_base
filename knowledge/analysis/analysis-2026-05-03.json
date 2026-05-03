@@ -1,284 +1,88 @@
 {
-  "source_file": "github-trending-2026-05-03.json",
-  "analyzed_at": "2026-05-03T15:45:00+08:00",
-  "skill": "tech-summary",
-  "total_items": 15,
+  "source_file": "raw-2026-05-03.json",
+  "analyzed_at": "2026-05-03T10:56:47.524391+00:00",
+  "skill": "pipeline-auto",
+  "total_items": 5,
   "analysis": [
     {
-      "name": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "summary": "本地化AI助手,支持WhatsApp/Telegram等25+平台,创GitHub增长记录。",
-      "highlights": [
-        "本地运行架构,隐私优先设计,数据不离设备",
-        "支持25+消息平台集成,包括WhatsApp/Telegram/Slack/Discord/WeChat",
-        "GitHub历史上增长最快项目,单日新增超10万stars"
-      ],
+      "name": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "summary": "论文通过实证研究揭示AI在算法招聘中表现出自我偏好现象，即倾向于选择与自身训练数据相似的候选者，可能加剧系统性偏见，并提供了缓解措施的见解。",
       "score": 8,
-      "score_reason": "生产可用的本地化AI方案,解决隐私和平台锁定痛点。但作为新兴项目,生态系统和长期维护能力有待验证。",
-      "suggested_tags": ["local-ai", "multi-platform", "privacy-first", "production-ready", "personal-assistant"],
-      "original_stars": 240500,
-      "original_language": "TypeScript"
+      "suggested_tags": [
+        "AI偏见",
+        "算法招聘",
+        "自我偏好",
+        "公平性",
+        "伦理"
+      ],
+      "category": "research",
+      "importance": "high"
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "summary": "开创性自主Agent框架,开启AI Agent时代,183K+社区验证。",
-      "highlights": [
-        "首个真正意义上的自主AI Agent框架,引发Agent革命",
-        "自主任务执行与决策能力,无需人类逐步干预",
-        "18万+stars,成为AI Agent领域的奠基性项目"
-      ],
-      "score": 9,
-      "score_reason": "改变行业范式的开创性技术,定义了自主Agent的概念和方向。虽然有性能局限,但历史意义重大。",
-      "suggested_tags": ["autonomous-agent", "pioneer", "agent-framework", "automation", "open-source"],
-      "original_stars": 183546,
-      "original_language": "Python"
-    },
-    {
-      "name": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "summary": "开源工作流自动化平台,集成400+服务,原生支持AI能力。",
-      "highlights": [
-        "400+服务集成,覆盖主流SaaS和工具",
-        "内置LangChain支持,可视化AI工作流编排",
-        "自托管架构,企业级安全和隐私保障"
-      ],
-      "score": 8,
-      "score_reason": "成熟的工作流平台,原生AI能力使其在Agent时代焕发新生。企业可立即部署使用。",
-      "suggested_tags": ["workflow-automation", "ai-native", "low-code", "production-ready", "self-hosted"],
-      "original_stars": 174000,
-      "original_language": "TypeScript"
-    },
-    {
-      "name": "ollama/ollama",
-      "url": "https://github.com/ollama/ollama",
-      "summary": "极简本地LLM运行方案,一条命令运行DeepSeek/Qwen等主流模型。",
-      "highlights": [
-        "一条命令`ollama run`即可运行模型,极致简化部署",
-        "支持DeepSeek、GLM-5、Qwen等主流开源模型",
-        "跨平台支持(macOS/Linux/Windows),本地化AI民主化"
-      ],
-      "score": 9,
-      "score_reason": "颠覆本地模型部署方式,将复杂流程简化为单命令。极大降低开源模型使用门槛,推动本地化AI普及。",
-      "suggested_tags": ["llm", "local-inference", "production-ready", "simplicity", "democratization"],
-      "original_stars": 162000,
-      "original_language": "Go"
-    },
-    {
-      "name": "langflow-ai/langflow",
-      "url": "https://github.com/langflow-ai/langflow",
-      "summary": "低代码AI Agent平台,拖拽式构建RAG和工作流,147K+用户验证。",
-      "highlights": [
-        "可视化拖拽界面,零代码构建AI应用",
-        "内置LangChain组件,支持RAG/Agent/工作流",
-        "丰富的预置组件和模板,快速原型开发"
-      ],
-      "score": 8,
-      "score_reason": "生产可用的低代码平台,显著降低AI应用开发门槛。成熟度高,可直接用于企业场景。",
-      "suggested_tags": ["low-code", "ai-agents", "rag", "visual-builder", "production-ready"],
-      "original_stars": 147091,
-      "original_language": "Python"
-    },
-    {
-      "name": "langgenius/dify",
-      "url": "https://github.com/langgenius/dify",
-      "summary": "企业级Agent工作流平台,一站式构建部署管理AI应用。",
-      "highlights": [
-        "完整的工具链:可视化编排、模型管理、应用部署",
-        "企业级特性:权限控制、审计日志、高可用架构",
-        "支持从QA机器人到自定义助手的多种场景"
-      ],
-      "score": 8,
-      "score_reason": "企业级一站式平台,覆盖AI应用全生命周期。功能完善,适合生产环境部署。",
-      "suggested_tags": ["llm-platform", "agent-workflow", "enterprise", "production-ready", "rag"],
-      "original_stars": 138273,
-      "original_language": "TypeScript"
-    },
-    {
-      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "summary": "主流AI工具系统提示词集合,包含Cursor/Devin/Claude等。",
-      "highlights": [
-        "收集Cursor、Devin、Claude Code等主流工具的提示词",
-        "揭示AI产品设计思路和提示工程最佳实践",
-        "社区驱动,持续更新最新工具的提示词"
-      ],
+      "name": "fabrica - A terminal-based minimal coding agent harness",
+      "url": "https://github.com/Endi1/fabrica",
+      "summary": "fabrica是一款基于终端的最小化编码代理工具，提供轻量级AI辅助编程体验，适合开发者高效完成代码任务。",
       "score": 7,
-      "score_reason": "高参考价值的提示工程资源,帮助理解产品设计。但作为资源集合,需结合实际应用场景。",
-      "suggested_tags": ["system-prompts", "prompt-engineering", "reference", "ai-tools", "design-insights"],
-      "original_stars": 135494,
-      "original_language": "None"
+      "suggested_tags": [
+        "coding agent",
+        "terminal",
+        "minimal",
+        "AI tool"
+      ],
+      "category": "agent",
+      "importance": "medium"
     },
     {
-      "name": "langchain-ai/langchain",
-      "url": "https://github.com/langchain-ai/langchain",
-      "summary": "AI Agent工程平台,模块化框架,133K+社区事实标准。",
-      "highlights": [
-        "模块化设计:链、Agent、记忆、检索等组件解耦",
-        "丰富的集成生态,支持100+数据源和工具",
-        "AI应用开发的事实标准,社区活跃度高"
-      ],
-      "score": 8,
-      "score_reason": "成熟的AI应用开发框架,生态完善。作为行业标准,可立即应用于生产环境。",
-      "suggested_tags": ["agent-framework", "llm-framework", "rag", "production-ready", "ecosystem"],
-      "original_stars": 133997,
-      "original_language": "Python"
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "summary": "生产级AI Agent框架,自我改进能力,终端优先设计。",
-      "highlights": [
-        "自我改进循环:从经验创建技能、优化技能、持久化知识",
-        "终端优先TUI界面,支持多平台消息网关",
-        "支持6种终端后端,包括serverless持久化"
-      ],
+      "name": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "summary": "OpenAI推出高级账户安全功能，包括抗钓鱼登录、更强账户恢复和增强保护，以防止账户盗用并保护敏感数据。",
       "score": 7,
-      "score_reason": "架构成熟,创新性的自我改进机制。但作为新框架,需时间验证稳定性和生态建设。",
-      "suggested_tags": ["agent-framework", "self-improving", "production-ready", "terminal-first", "multi-platform"],
-      "original_stars": 99955,
-      "original_language": "Python"
+      "suggested_tags": [
+        "account security",
+        "phishing-resistant",
+        "authentication",
+        "OpenAI",
+        "safety"
+      ],
+      "category": "application",
+      "importance": "medium"
     },
     {
-      "name": "mem0ai/mem0",
-      "url": "https://github.com/mem0ai/mem0",
-      "summary": "AI Agent通用记忆层,支持用户/会话/Agent多级记忆管理。",
-      "highlights": [
-        "多级记忆管理:用户级、会话级、Agent级隔离",
-        "智能记忆提取,自动识别和存储关键信息",
-        "多信号检索,支持语义和关键词混合搜索"
+      "name": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+      "summary": "Google 翻译迎来20周年，从2006年的AI实验发展为支持近250种语言的工具。文章分享20个趣味事实、使用技巧和新功能，庆祝其发展历程。",
+      "score": 3,
+      "suggested_tags": [
+        "Google翻译",
+        "机器翻译",
+        "AI应用"
       ],
+      "category": "news",
+      "importance": "low"
+    },
+    {
+      "name": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "summary": "本文探讨利用AI共同临床医生增强医疗保健的新模式，研究AI辅助诊疗路径，旨在提升医疗质量和效率。",
       "score": 7,
-      "score_reason": "解决AI Agent记忆痛点,架构清晰。但作为垂直组件,适用场景相对有限。",
-      "suggested_tags": ["ai-memory", "agent-memory", "personalization", "rag", "experimental"],
-      "original_stars": 54593,
-      "original_language": "Python"
-    },
-    {
-      "name": "OpenBMB/XAgent",
-      "url": "https://github.com/OpenBMB/XAgent",
-      "summary": "开源自主Agent,人类偏好评估超越AutoGPT,多任务处理。",
-      "highlights": [
-        "人类偏好评估全面超越AutoGPT,任务完成质量更高",
-        "多模态能力,支持数据分析、代码开发、模型训练",
-        "自动任务分解和工具调用,复杂任务自动化"
+      "suggested_tags": [
+        "AI医疗",
+        "临床决策支持",
+        "人工智能"
       ],
-      "score": 6,
-      "score_reason": "技术表现优异,但Star数相对较少,社区活跃度和生态建设有待提升。适合研究场景。",
-      "suggested_tags": ["autonomous-agent", "multi-modal", "task-solving", "research", "experimental"],
-      "original_stars": 8527,
-      "original_language": "Python"
-    },
-    {
-      "name": "MiniMax-AI/MiniMax-M2",
-      "url": "https://github.com/MiniMax-AI/MiniMax-M2",
-      "summary": "编程和Agent优化MoE模型,230B参数激活10B,开源评分第一。",
-      "highlights": [
-        "MoE架构:230B总参数,仅激活10B,推理成本低",
-        "开源模型综合评分排名第一(截至发布时)",
-        "专为编程和Agent工具调用优化"
-      ],
-      "score": 7,
-      "score_reason": "性能优异的MoE模型,成本效率突出。但作为新发布模型,需社区验证和生态支持。",
-      "suggested_tags": ["llm", "moe", "coding", "agent-tool-use", "experimental"],
-      "original_stars": 2584,
-      "original_language": "Python"
-    },
-    {
-      "name": "zai-org/GLM-5",
-      "url": "https://github.com/zai-org/GLM-5",
-      "summary": "智谱AI旗舰模型,Agent工程优化,744B参数激活40B。",
-      "highlights": [
-        "专为Agent工程设计:SWE-Bench Pro和Vending Bench 2领先",
-        "744B参数激活40B,长程规划和工具调用能力突出",
-        "复杂系统工程能力,支持多步骤任务编排"
-      ],
-      "score": 7,
-      "score_reason": "Agent场景表现优异,技术创新性强。但作为特定领域模型,适用场景需匹配。",
-      "suggested_tags": ["llm", "agentic-ai", "coding", "long-context", "experimental"],
-      "original_stars": 3143,
-      "original_language": "Python"
-    },
-    {
-      "name": "microsoft/fara",
-      "url": "https://github.com/microsoft/fara",
-      "summary": "微软首个计算机使用Agent小模型,7B参数完成网页任务。",
-      "highlights": [
-        "首个计算机使用Agent SLM,通过鼠标键盘操作界面",
-        "仅7B参数,WebVoyager等基准领先,端侧部署可行",
-        "平均16步完成任务,效率显著优于对比模型"
-      ],
-      "score": 6,
-      "score_reason": "创新性概念,端侧部署潜力大。但专注特定领域,适用场景有限,需进一步验证。",
-      "suggested_tags": ["computer-use-agent", "slm", "web-agent", "on-device", "research"],
-      "original_stars": 4902,
-      "original_language": "Python"
-    },
-    {
-      "name": "microsoft/Magma",
-      "url": "https://github.com/microsoft/Magma",
-      "summary": "微软多模态Agent基础模型,统一虚拟和真实环境交互。",
-      "highlights": [
-        "统一架构处理虚拟环境(UI导航)和真实环境(机器人操作)",
-        "空间推理能力,支持视觉-语言-动作多模态",
-        "基础模型设计,可扩展到多种具身场景"
-      ],
-      "score": 6,
-      "score_reason": "概念新颖的基础模型,架构创新。但Star数较少,实际应用和验证有待观察。",
-      "suggested_tags": ["multimodal-agent", "foundation-model", "robotics", "ui-navigation", "research"],
-      "original_stars": 1916,
-      "original_language": "Python"
+      "category": "research",
+      "importance": "high"
     }
   ],
   "trends": {
-    "common_themes": [
-      {
-        "theme": "AI Agent框架与自主代理",
-        "count": 8,
-        "projects": ["AutoGPT", "OpenClaw", "Langflow", "Dify", "LangChain", "Hermes Agent", "XAgent", "Magma"]
-      },
-      {
-        "theme": "低代码/无代码平台",
-        "count": 3,
-        "projects": ["n8n", "Langflow", "Dify"]
-      },
-      {
-        "theme": "本地化部署与隐私优先",
-        "count": 2,
-        "projects": ["OpenClaw", "Ollama"]
-      },
-      {
-        "theme": "Agent记忆与个性化",
-        "count": 2,
-        "projects": ["Hermes Agent", "Mem0"]
-      }
-    ],
-    "emerging_concepts": [
-      {
-        "concept": "计算机使用Agent (Computer Use Agent)",
-        "description": "AI通过鼠标键盘直接操作计算机界面,完成网页导航、表单填写等任务,而非通过API调用。",
-        "first_seen": "2026-05-03"
-      },
-      {
-        "concept": "自我改进Agent (Self-Improving Agent)",
-        "description": "Agent从经验中自动创建技能、优化技能、持久化知识,形成闭环学习能力。",
-        "first_seen": "2026-05-03"
-      },
-      {
-        "concept": "多模态Agent基础模型",
-        "description": "统一架构处理虚拟环境(UI导航)和真实环境(机器人操作)的多模态Agent模型。",
-        "first_seen": "2026-05-03"
-      },
-      {
-        "concept": "Agent工程专用LLM",
-        "description": "专为Agent场景优化的LLM,在工具调用、长程规划、复杂任务编排上有显著提升。",
-        "first_seen": "2026-05-03"
-      },
-      {
-        "concept": "持久化Agent记忆层",
-        "description": "为AI Agent提供通用的记忆管理层,支持多级记忆隔离和智能检索,让AI拥有长期记忆。",
-        "first_seen": "2026-05-03"
-      }
-    ]
+    "category_distribution": {
+      "research": 2,
+      "agent": 1,
+      "application": 1,
+      "news": 1
+    },
+    "high_importance_count": 2,
+    "avg_score": 6.4
   }
 }

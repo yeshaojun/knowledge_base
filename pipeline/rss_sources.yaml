@@ -1,0 +1,267 @@
+# RSS 数据源配置
+# 用于知识库内容采集
+
+sources:
+  # 综合技术
+  - name: "Hacker News Best (AI)"
+    url: "https://hnrss.org/best?q=AI+OR+LLM+OR+machine+learning&points=100"
+    category: "tech_general"
+    enabled: true
+    description: "Hacker News 高票 AI 相关文章 (≥100 points)"
+
+  - name: "Lobsters AI/ML"
+    url: "https://lobste.rs/t/ai,ml.rss"
+    category: "tech_general"
+    enabled: true
+    description: "Lobsters AI/ML 标签聚合"
+
+  # AI 研究
+  - name: "arXiv cs.AI"
+    url: "http://export.arxiv.org/rss/cs.AI"
+    category: "ai_research"
+    enabled: false
+    description: "arXiv 人工智能最新论文 (更新量大，默认关闭)"
+
+  - name: "arXiv cs.LG"
+    url: "http://export.arxiv.org/rss/cs.LG"
+    category: "ai_research"
+    enabled: false
+    description: "arXiv 机器学习最新论文 (更新量大，默认关闭)"
+
+  - name: "arXiv cs.CL"
+    url: "http://export.arxiv.org/rss/cs.CL"
+    category: "ai_research"
+    enabled: false
+    description: "arXiv 计算与语言 (NLP) 论文 (更新量大，默认关闭)"
+
+  # 公司博客
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: "company_blog"
+    enabled: true
+    description: "OpenAI 官方博客"
+
+  - name: "Anthropic Research"
+    url: "https://www.anthropic.com/news/rss"
+    category: "company_blog"
+    enabled: true
+    description: "Anthropic 研究博客"
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "company_blog"
+    enabled: true
+    description: "Hugging Face 技术博客"
+
+  - name: "Google AI Blog"
+    url: "https://blog.google/technology/ai/rss/"
+    category: "company_blog"
+    enabled: true
+    description: "Google AI 研究博客"
+
+  - name: "DeepMind Blog"
+    url: "https://deepmind.com/blog/rss.xml"
+    category: "company_blog"
+    enabled: true
+    description: "DeepMind 研究博客"
+
+  # 中文社区
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: "cn_community"
+    enabled: false
+    description: "机器之心 AI 资讯 (需验证 RSS 可用性)"
+
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: "cn_community"
+    enabled: false
+    description: "量子位 AI 资讯 (需验证 RSS 可用性)"
+
+  - name: "新智元"
+    url: "https://www.zhidx.com/rss"
+    category: "cn_community"
+    enabled: false
+    description: "新智元 AI 资讯 (需验证 RSS 可用性)"
+
+  # Reddit 社区
+  - name: "Reddit r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/hot.rss"
+    category: "reddit"
+    enabled: true
+    description: "Reddit 机器学习社区热门讨论"
+
+  - name: "Reddit r/LocalLLaMA"
+    url: "https://www.reddit.com/r/LocalLLaMA/hot.rss"
+    category: "reddit"
+    enabled: true
+    description: "Reddit 本地 LLM 社区热门讨论"
+
+  # 行业资讯
+  - name: "The Verge (AI)"
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    category: "news"
+    enabled: true
+    description: "The Verge AI 行业新闻"
+
+  # 国际财经
+  - name: "Bloomberg Technology"
+    url: "https://www.bloomberg.com/technology/feed"
+    category: "finance_global"
+    enabled: true
+    description: "彭博科技财经新闻"
+
+  - name: "Reuters Business"
+    url: "https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best"
+    category: "finance_global"
+    enabled: true
+    description: "路透社商业新闻"
+
+  - name: "Financial Times Tech"
+    url: "https://www.ft.com/rss/home/technology"
+    category: "finance_global"
+    enabled: true
+    description: "金融时报科技版"
+
+  - name: "CNBC Technology"
+    url: "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+    category: "finance_global"
+    enabled: true
+    description: "CNBC 科技财经"
+
+  # 科技财经
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+    category: "finance_tech"
+    enabled: true
+    description: "科技创业媒体"
+
+  - name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+    category: "finance_tech"
+    enabled: true
+    description: "VentureBeat AI 频道"
+
+  - name: "Wired Business"
+    url: "https://www.wired.com/feed/category/business/latest/rss"
+    category: "finance_tech"
+    enabled: true
+    description: "Wired 商业版"
+
+  # 国内财经
+  - name: "财新网"
+    url: "https://feeds.caixin.com/caixin/news.xml"
+    category: "finance_cn"
+    enabled: true
+    description: "高质量财经媒体"
+
+  - name: "第一财经"
+    url: "https://www.yicai.com/rss/news.xml"
+    category: "finance_cn"
+    enabled: true
+    description: "权威财经电视媒体"
+
+  - name: "界面新闻"
+    url: "https://www.jiemian.com/rss/news.xml"
+    category: "finance_cn"
+    enabled: true
+    description: "综合财经媒体"
+
+  - name: "21世纪经济报道"
+    url: "https://www.21jingji.com/rss.xml"
+    category: "finance_cn"
+    enabled: true
+    description: "专业财经报纸"
+
+  - name: "经济观察报"
+    url: "https://www.eeo.com.cn/rss/news.xml"
+    category: "finance_cn"
+    enabled: true
+    description: "深度财经报道"
+
+  - name: "投中网"
+    url: "https://www.chinaventure.com.cn/rss.xml"
+    category: "finance_cn"
+    enabled: true
+    description: "投融资专业媒体"
+
+  - name: "亿欧网"
+    url: "https://www.iyiou.com/rss"
+    category: "finance_cn"
+    enabled: false
+    description: "科技商业媒体 (需验证)"
+
+  - name: "雪球热帖"
+    url: "https://xueqiu.com/hots/topic/rss"
+    category: "finance_cn"
+    enabled: true
+    description: "投资社区热门讨论"
+
+  - name: "36氪"
+    url: "https://36kr.com/feed"
+    category: "finance_cn"
+    enabled: false
+    description: "创投媒体 (需验证)"
+
+  - name: "虎嗅"
+    url: "https://www.huxiu.com/rss/0.xml"
+    category: "finance_cn"
+    enabled: false
+    description: "商业科技媒体 (需验证)"
+
+  - name: "钛媒体"
+    url: "https://www.tmtpost.com/rss"
+    category: "finance_cn"
+    enabled: false
+    description: "科技财经媒体 (需验证)"
+
+  - name: "华尔街见闻"
+    url: "https://wallstreetcn.com/news/global"
+    category: "finance_cn"
+    enabled: false
+    description: "全球财经资讯 (需验证)"
+
+# 分类说明
+categories:
+  tech_general:
+    name: "综合技术"
+    description: "技术社区 AI 相关内容"
+
+  ai_research:
+    name: "AI 研究"
+    description: "学术论文和研究进展"
+
+  company_blog:
+    name: "公司博客"
+    description: "AI 公司官方技术博客"
+
+  cn_community:
+    name: "中文社区"
+    description: "中文 AI 技术媒体"
+
+  reddit:
+    name: "Reddit 社区"
+    description: "Reddit AI 相关讨论区"
+
+  news:
+    name: "行业资讯"
+    description: "AI 行业新闻和动态"
+
+  finance_global:
+    name: "国际财经"
+    description: "国际财经媒体"
+
+  finance_tech:
+    name: "科技财经"
+    description: "科技创业与投融资"
+
+  finance_cn:
+    name: "国内财经"
+    description: "中文财经媒体"
+
+# 采集配置
+settings:
+  fetch_interval: 3600  # 采集间隔 (秒)
+  max_items_per_source: 50  # 每次最多采集条目数
+  timeout: 30  # 请求超时 (秒)
+  user_agent: "KnowledgeBaseBot/1.0"

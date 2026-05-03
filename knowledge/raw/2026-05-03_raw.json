@@ -1,0 +1,373 @@
+{
+  "fetch_id": "raw_20260503",
+  "fetched_at": "2026-05-03T10:56:27.991696+00:00",
+  "items_count": 34,
+  "items": [
+    {
+      "title": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "collected_at": "2026-05-03T10:41:03.961279+00:00",
+      "metadata": {
+        "stars": 183948,
+        "language": "Python",
+        "forks": 46242
+      }
+    },
+    {
+      "title": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "Stable Diffusion web UI",
+      "collected_at": "2026-05-03T10:41:03.961309+00:00",
+      "metadata": {
+        "stars": 162702,
+        "language": "Python",
+        "forks": 30312
+      }
+    },
+    {
+      "title": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "collected_at": "2026-05-03T10:41:03.961316+00:00",
+      "metadata": {
+        "stars": 160199,
+        "language": "Python",
+        "forks": 33093
+      }
+    },
+    {
+      "title": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "collected_at": "2026-05-03T10:41:03.961321+00:00",
+      "metadata": {
+        "stars": 147645,
+        "language": "Python",
+        "forks": 8899
+      }
+    },
+    {
+      "title": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "The agent engineering platform",
+      "collected_at": "2026-05-03T10:41:03.961325+00:00",
+      "metadata": {
+        "stars": 135660,
+        "language": "Python",
+        "forks": 22429
+      }
+    },
+    {
+      "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "source": "Hacker News Best (AI)",
+      "source_type": "rss",
+      "description": "Article URL: https://arxiv.org/abs/2509.00462\nComments URL: https://news.ycombinator.com/item?id=47987256\nPoints: 324\n# Comments: 171",
+      "collected_at": "2026-05-03T10:41:05.341635+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "fabrica - A terminal-based minimal coding agent harness",
+      "url": "https://github.com/Endi1/fabrica",
+      "source": "Lobsters AI/ML",
+      "source_type": "rss",
+      "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/vk8as6/fabrica_terminal_based_minimal_coding\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "collected_at": "2026-05-03T10:41:06.938466+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "AI-generated actors and scripts are now ineligible for Oscars",
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+      "source": "TechCrunch",
+      "source_type": "rss",
+      "description": "Bad news for Tilly Norwood.",
+      "collected_at": "2026-05-03T10:41:21.643178+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Why Does Wikipedia Think I’m Evan Spiegel?",
+      "url": "https://www.wired.com/story/why-does-wikipedia-think-im-evan-spiegel/",
+      "source": "Wired Business",
+      "source_type": "rss",
+      "description": "For the past week, a photo of me has been plastered on the CEO of Snap’s Wikipedia page. No one, not even Spiegel, seems to care.",
+      "collected_at": "2026-05-03T10:41:23.034068+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "collected_at": "2026-05-03T10:46:52.037678+00:00",
+      "metadata": {
+        "stars": 183948,
+        "language": "Python",
+        "forks": 46242
+      }
+    },
+    {
+      "title": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "Stable Diffusion web UI",
+      "collected_at": "2026-05-03T10:46:52.037705+00:00",
+      "metadata": {
+        "stars": 162702,
+        "language": "Python",
+        "forks": 30312
+      }
+    },
+    {
+      "title": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "collected_at": "2026-05-03T10:46:52.037709+00:00",
+      "metadata": {
+        "stars": 160199,
+        "language": "Python",
+        "forks": 33093
+      }
+    },
+    {
+      "title": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "collected_at": "2026-05-03T10:46:52.037711+00:00",
+      "metadata": {
+        "stars": 147645,
+        "language": "Python",
+        "forks": 8899
+      }
+    },
+    {
+      "title": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "The agent engineering platform",
+      "collected_at": "2026-05-03T10:46:52.037713+00:00",
+      "metadata": {
+        "stars": 135660,
+        "language": "Python",
+        "forks": 22429
+      }
+    },
+    {
+      "title": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "collected_at": "2026-05-03T10:46:52.037714+00:00",
+      "metadata": {
+        "stars": 135286,
+        "language": "Python",
+        "forks": 19239
+      }
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "The agent that grows with you",
+      "collected_at": "2026-05-03T10:46:52.037716+00:00",
+      "metadata": {
+        "stars": 130376,
+        "language": "Python",
+        "forks": 19734
+      }
+    },
+    {
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "Public repository for Agent Skills",
+      "collected_at": "2026-05-03T10:46:52.037717+00:00",
+      "metadata": {
+        "stars": 127464,
+        "language": "Python",
+        "forks": 14984
+      }
+    },
+    {
+      "title": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "collected_at": "2026-05-03T10:46:52.037720+00:00",
+      "metadata": {
+        "stars": 111142,
+        "language": "Python",
+        "forks": 12970
+      }
+    },
+    {
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "source_type": "github_search",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "collected_at": "2026-05-03T10:46:52.037721+00:00",
+      "metadata": {
+        "stars": 108498,
+        "language": "Python",
+        "forks": 16013
+      }
+    },
+    {
+      "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "source": "Hacker News Best (AI)",
+      "source_type": "rss",
+      "description": "Article URL: https://arxiv.org/abs/2509.00462\nComments URL: https://news.ycombinator.com/item?id=47987256\nPoints: 324\n# Comments: 171",
+      "collected_at": "2026-05-03T10:46:53.167689+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "fabrica - A terminal-based minimal coding agent harness",
+      "url": "https://github.com/Endi1/fabrica",
+      "source": "Lobsters AI/ML",
+      "source_type": "rss",
+      "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/vk8as6/fabrica_terminal_based_minimal_coding\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "collected_at": "2026-05-03T10:46:54.625113+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "description": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "collected_at": "2026-05-03T10:46:56.585288+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_hero_NC8a.max-600x600.format-webp.webp\"&gt;Google’s sharing 20 fun facts to celebrate Google Translate turning 20, from its roots as a 2006 AI experiment to supporting almost 250 languages today.",
+      "collected_at": "2026-05-03T10:46:59.831036+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "source": "DeepMind Blog",
+      "source_type": "rss",
+      "description": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "collected_at": "2026-05-03T10:47:01.294363+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "The S&amp;P 500 and Nasdaq kept their record rallies going. Here are 3 key takeaways",
+      "url": "https://www.cnbc.com/2026/05/02/the-sp-500-and-nasdaq-kept-their-record-rallies-going-here-are-3-key-takeaways-.html",
+      "source": "CNBC Technology",
+      "source_type": "rss",
+      "description": "It seemed like what really captivated Wall Street though was corporate earnings.",
+      "collected_at": "2026-05-03T10:47:09.673350+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "AI-generated actors and scripts are now ineligible for Oscars",
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+      "source": "TechCrunch",
+      "source_type": "rss",
+      "description": "Bad news for Tilly Norwood.",
+      "collected_at": "2026-05-03T10:47:10.344999+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "source": "VentureBeat AI",
+      "source_type": "rss",
+      "description": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastructure.TQ Ventures led the round, with participation from FPV Ventures, Redpoint, and Unusual Ventures. The investment values Railway as one of the most significant infrastructure sta",
+      "collected_at": "2026-05-03T10:47:11.216150+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Why Does Wikipedia Think I’m Evan Spiegel?",
+      "url": "https://www.wired.com/story/why-does-wikipedia-think-im-evan-spiegel/",
+      "source": "Wired Business",
+      "source_type": "rss",
+      "description": "For the past week, a photo of me has been plastered on the CEO of Snap’s Wikipedia page. No one, not even Spiegel, seems to care.",
+      "collected_at": "2026-05-03T10:47:11.906389+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "科技公司不说清楚的供应链",
+      "url": "http://xueqiu.com/9780872831/387079899",
+      "source": "雪球热帖",
+      "source_type": "rss",
+      "description": "&lt;![CDATA[&lt;p&gt; 投资的底气来自于对公司的了解。&lt;/p&gt;&lt;p&gt;很多投资者在研究上市公司时，都会遇到一个很常见的问题：公司说自己产品很先进，说已经进入某某产业链，说客户覆盖头部企业，说订单增长很好，但一问具体客户是谁、供应商是谁、产品到底用在哪个环节，公司往往就开始模糊表达。&lt;/p&gt;&lt;p&gt;比如说“已进入国内外知名客户供应体系”“与行业头部客户保持稳定合作”“产品应用于AI服务器、光模块、新能源汽车、消费电子等领域”。这些话听起来很有想象力，但真正追问下去，常常发现一个问题：公司没有直接说清楚，到底卖给了谁，卖了多少，是送样、验证、小批量，还是稳定量产。&lt;/p&gt;&lt;p&gt;这背后并不一定都是造假，也不一定都是公司故意回避。商业世界本来就存在很多不能说、不能全说、说了反而有风险的地方。&lt;/p&gt;&lt;p&gt;第一，客户不允许说。&lt;/p&gt;&lt;p&gt;很多大客户，尤其是苹果、英伟达、华为、特斯拉、Meta、亚马逊、谷歌、微软这类核心产业链客户，对供应商的信息披露都有严格限制",
+      "collected_at": "2026-05-03T10:47:17.183251+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "source": "Hacker News Best (AI)",
+      "source_type": "rss",
+      "description": "Article URL: https://arxiv.org/abs/2509.00462\nComments URL: https://news.ycombinator.com/item?id=47987256\nPoints: 324\n# Comments: 171",
+      "collected_at": "2026-05-03T10:56:03.969906+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "fabrica - A terminal-based minimal coding agent harness",
+      "url": "https://github.com/Endi1/fabrica",
+      "source": "Lobsters AI/ML",
+      "source_type": "rss",
+      "description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/vk8as6/fabrica_terminal_based_minimal_coding\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+      "collected_at": "2026-05-03T10:56:05.436105+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Introducing Advanced Account Security",
+      "url": "https://openai.com/index/advanced-account-security",
+      "source": "OpenAI Blog",
+      "source_type": "rss",
+      "description": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "collected_at": "2026-05-03T10:56:07.459778+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+      "source": "Google AI Blog",
+      "source_type": "rss",
+      "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_hero_NC8a.max-600x600.format-webp.webp\"&gt;Google’s sharing 20 fun facts to celebrate Google Translate turning 20, from its roots as a 2006 AI experiment to supporting almost 250 languages today.",
+      "collected_at": "2026-05-03T10:56:25.724098+00:00",
+      "metadata": {}
+    },
+    {
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "source": "DeepMind Blog",
+      "source_type": "rss",
+      "description": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "collected_at": "2026-05-03T10:56:27.479959+00:00",
+      "metadata": {}
+    }
+  ]
+}

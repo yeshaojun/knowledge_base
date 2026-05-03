@@ -1,0 +1,22 @@
+{
+  "id": "DeepMind Blog-20260503-6f1",
+  "title": "Enabling a new model for healthcare with AI co-clinician",
+  "source_url": "https://deepmind.google/blog/ai-co-clinician/",
+  "source_type": "rss",
+  "summary": "探索AI协同临床医生模式，通过人工智能增强医疗保健，旨在提升诊断与治疗效率，实现AI辅助的临床决策。",
+  "tags": [
+    "AI in healthcare",
+    "clinical AI",
+    "AI augmentation",
+    "co-clinician"
+  ],
+  "category": "research",
+  "importance": "high",
+  "status": "draft",
+  "created_at": "2026-05-03T10:48:04.422950+00:00",
+  "updated_at": "2026-05-03T10:48:04.422953+00:00",
+  "distributed_to": [],
+  "metadata": {
+    "score": 9
+  }
+}

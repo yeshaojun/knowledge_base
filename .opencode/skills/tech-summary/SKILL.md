@@ -7,12 +7,12 @@ allowed-tools:
   - Glob
   - WebFetch
 ---
-
 # 技术内容深度分析技能
 
 ## 使用场景
 
 当用户需要：
+
 - 对采集的技术项目进行深度分析
 - 提取技术亮点和价值评估
 - 发现技术趋势和新兴概念
@@ -23,6 +23,7 @@ allowed-tools:
 ### 1. 读取最新采集文件
 
 从 `knowledge/raw/` 目录读取最新的采集文件：
+
 - 使用 Glob 查找匹配 `github-trending-*.json` 或 `hacker-news-*.json` 的文件
 - 按时间戳排序，选择最新文件
 - 解析 JSON 内容，提取 items 数组
@@ -32,25 +33,30 @@ allowed-tools:
 对每个项目进行分析，生成：
 
 **摘要**（<=50 字）
+
 - 精炼概括项目核心价值
 - 突出差异化特点
 - 避免空泛描述
+- 使用中文描述
 
 **技术亮点**（2-3 个）
+
 - 用事实说话：具体功能、性能数据、创新点
 - 避免主观判断，如"很强大"、"非常好"
 - 格式：`功能/特性 + 具体表现/数据`
 
 **评分**（1-10 分）+ 理由
 
-| 分数段 | 含义 | 标准 |
-|--------|------|------|
-| 9-10 | 改变格局 | 开创性技术、可能颠覆现有范式、行业里程碑 |
-| 7-8 | 直接有帮助 | 可立即应用于生产、解决实际痛点、成熟度高 |
-| 5-6 | 值得了解 | 有参考价值、但需进一步验证、适用场景有限 |
-| 1-4 | 可略过 | 同质化严重、缺乏创新、维护状态不佳 |
+
+| 分数段 | 含义       | 标准                                     |
+| ------ | ---------- | ---------------------------------------- |
+| 9-10   | 改变格局   | 开创性技术、可能颠覆现有范式、行业里程碑 |
+| 7-8    | 直接有帮助 | 可立即应用于生产、解决实际痛点、成熟度高 |
+| 5-6    | 值得了解   | 有参考价值、但需进一步验证、适用场景有限 |
+| 1-4    | 可略过     | 同质化严重、缺乏创新、维护状态不佳       |
 
 **标签建议**（3-5 个）
+
 - 技术领域: `llm`, `agent`, `rag`, `fine-tuning`
 - 应用场景: `code-generation`, `data-analysis`, `workflow-automation`
 - 成熟度: `production-ready`, `experimental`, `research`
@@ -60,14 +66,17 @@ allowed-tools:
 从整体项目集合中发现：
 
 **共同主题**
+
 - 多个项目涉及的技术方向
 - 出现 2 次以上的关键词聚类
 
 **新概念**
+
 - 首次出现或关注度上升的技术概念
 - 命名新颖、范式创新的方案
 
 **输出格式**
+
 ```markdown
 ## 趋势发现
 
@@ -87,6 +96,7 @@ allowed-tools:
 ## 评分约束
 
 **重要**：在 15 个项目中：
+
 - 9-10 分项目：不超过 2 个
 - 7-8 分项目：不超过 5 个
 - 保持评分分布的合理性，避免分数膨胀
@@ -145,18 +155,19 @@ allowed-tools:
 
 ### 字段说明
 
-| 字段 | 类型 | 必填 | 说明 |
-|------|------|------|------|
-| `source_file` | string | ✅ | 分析的原始文件名 |
-| `analyzed_at` | string | ✅ | ISO 8601 格式分析时间 |
-| `skill` | string | ✅ | 技能标识 `tech-summary` |
-| `total_items` | number | ✅ | 分析项目总数 |
-| `analysis` | array | ✅ | 项目分析结果 |
-| `analysis[].summary` | string | ✅ | 摘要，<=50 字 |
-| `analysis[].highlights` | array | ✅ | 技术亮点，2-3 条，事实说话 |
-| `analysis[].score` | number | ✅ | 评分 1-10 |
-| `analysis[].score_reason` | string | ✅ | 评分理由，50-100 字 |
-| `analysis[].suggested_tags` | array | ✅ | 标签建议，3-5 个 |
-| `trends` | object | ✅ | 趋势发现结果 |
-| `trends.common_themes` | array | ✅ | 共同主题列表 |
-| `trends.emerging_concepts` | array | ✅ | 新兴概念列表 |
+
+| 字段                        | 类型   | 必填 | 说明                       |
+| --------------------------- | ------ | ---- | -------------------------- |
+| `source_file`               | string | ✅   | 分析的原始文件名           |
+| `analyzed_at`               | string | ✅   | ISO 8601 格式分析时间      |
+| `skill`                     | string | ✅   | 技能标识`tech-summary`     |
+| `total_items`               | number | ✅   | 分析项目总数               |
+| `analysis`                  | array  | ✅   | 项目分析结果               |
+| `analysis[].summary`        | string | ✅   | 摘要，<=50 字              |
+| `analysis[].highlights`     | array  | ✅   | 技术亮点，2-3 条，事实说话 |
+| `analysis[].score`          | number | ✅   | 评分 1-10                  |
+| `analysis[].score_reason`   | string | ✅   | 评分理由，50-100 字        |
+| `analysis[].suggested_tags` | array  | ✅   | 标签建议，3-5 个           |
+| `trends`                    | object | ✅   | 趋势发现结果               |
+| `trends.common_themes`      | array  | ✅   | 共同主题列表               |
+| `trends.emerging_concepts`  | array  | ✅   | 新兴概念列表               |

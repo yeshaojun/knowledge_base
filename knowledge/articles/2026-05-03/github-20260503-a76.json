@@ -1,0 +1,26 @@
+{
+  "id": "github-20260503-a76",
+  "title": "langflow-ai/langflow",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "source_type": "github_search",
+  "summary": "Langflow是一个用于构建和部署AI代理及工作流的强大可视化低代码工具，简化了基于LLM的应用开发流程。",
+  "tags": [
+    "agent",
+    "workflow",
+    "low-code",
+    "LLM",
+    "AI开发"
+  ],
+  "category": "agent",
+  "importance": "high",
+  "status": "draft",
+  "created_at": "2026-05-03T10:41:42.050953+00:00",
+  "updated_at": "2026-05-03T10:41:42.050957+00:00",
+  "distributed_to": [],
+  "metadata": {
+    "stars": 147645,
+    "language": "Python",
+    "forks": 8899,
+    "score": 10
+  }
+}
